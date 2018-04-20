@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureBootcamp.Functions", "AzureBootcamp.Functions\AzureBootcamp.Functions.csproj", "{954135EE-1E76-4E0F-9A3A-1933F708670B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureBootcamp.Functions", "AzureBootcamp.Functions\AzureBootcamp.Functions.csproj", "{954135EE-1E76-4E0F-9A3A-1933F708670B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
