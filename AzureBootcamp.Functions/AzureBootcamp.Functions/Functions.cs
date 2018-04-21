@@ -18,7 +18,7 @@ namespace AzureBootcamp.Functions
         //private static string _cameraAppUrl = "http://lloyd.synology.me:52042/api/Camera";
 
         [FunctionName("TheFunction")]
-        public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = "api/TheFunction")]HttpRequestMessage req, TraceWriter log)
+        public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = "TheFunction")]HttpRequestMessage req, TraceWriter log)
         {            
             // parse query parameter
             string message = req.GetQueryNameValuePairs()
